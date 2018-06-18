@@ -113,12 +113,6 @@
   .drawer-content .item {
     height: 45px;
   }
-  .router-link-active .item-primary{
-    color: $link-color-active;
-  }
-  .router-link-active .item-primary{
-    color: $link-color-active;
-  }
   .q-picker-textfield .q-picker-textfield-label{
     color: inherit !important;
   }
@@ -169,6 +163,10 @@
   }
   canvas {
     width: 270px !important;
+  }
+  hr {
+    border-color : $primary;
+    border-width : 0px;
   }
   @media only screen and (min-width: 601px){
     .adv-form-one .timeline-badge {
@@ -229,4 +227,7 @@
   .primary-9 {
     background-color: primary-9;
   }
+  .img-circle {
+    border-radius: 50%;
+}
 </style>

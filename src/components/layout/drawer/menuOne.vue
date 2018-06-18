@@ -1,7 +1,7 @@
 <template>
   <div class="list no-border platform-delimiter light-paragraph">
     <template v-for="(parent, index) in links">
-      <div class="list-label cursor-pointer underline" @click="parent.show = !parent.show">{{replaceUnderlineToSpace(index)}}</div>
+      <div class="list-label cursor-pointer" @click="parent.show = !parent.show">{{replaceUnderlineToSpace(index)}}</div>
       <template v-for="child in parent.routes">
         <transition name="menu">
           <div v-show="parent.show">

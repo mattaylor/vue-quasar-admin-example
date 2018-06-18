@@ -1,13 +1,11 @@
 <template>
   <q-drawer ref="leftDrawer" v-show="getLayoutNeeded">
     <div id="profile">
-      <img :src="photo" style='height: 80px' class="inline-block">
+      <img :src="photo" style='height: 80px' class="inline-block img-circle">
       <!--img src="../img/avatar-1.svg" id="avatar" class="inline-block"--> 
       <div id="user-name">
         <span class="text-white"> {{ name }} </span>
-        <hr>
         <span class="text-white"> {{ email }} </span>
-        <hr>
       </div>
       <div id="user-actions">
         <button class="primary-2 small" ><i>person</i></button>
@@ -106,7 +104,8 @@
     padding: 20px;
   }
   #profile {
-    height: 130px;
+    height: 120px;
+    padding: 20px 10px 10px;
     background-color : darken($primary,20%)
   }
   #user-name {
