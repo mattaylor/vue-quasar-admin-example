@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card-title bg-teal text-white">
+    <div class="card-title">
       Exemple Two - Simple drag and drop kanban
     </div>
     <div class="card-content bg-white">

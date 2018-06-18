@@ -11,7 +11,7 @@ test('My first test', async t => {
     .expect(title.innerHTML).contains('Pricing')
 })
 test('My second test', async t => {
-  const totalCommentsCard = await Selector('.bg-teal-7 h5').addCustomDOMProperties({innerHTML: el => el.innerHTML})
+  const totalCommentsCard = await Selector('.bg-blue-grey-7 h5').addCustomDOMProperties({innerHTML: el => el.innerHTML})
   await t
     .resizeWindow(1920, 1080)
     .click('.drawer-closer:nth-child(2) .item-content')

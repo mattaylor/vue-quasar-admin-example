@@ -4,7 +4,7 @@
       <div class="flex wrap gutter">
         <div class="gt-md-width-1of3 width-1of1">
           <div class="card">
-            <div class="card-title bg-teal text-white">
+            <div class="card-title">
               Input
             </div>
             <div class="card-content bg-white">
@@ -20,7 +20,7 @@
         </div>
         <div class="gt-md-width-1of3 width-1of1">
           <div class="card">
-            <div class="card-title bg-teal text-white">
+            <div class="card-title">
               Select
             </div>
             <div class="card-content bg-white">
@@ -38,7 +38,7 @@
         </div>
         <div class="gt-md-width-1of3 width-1of1">
           <div class="card">
-            <div class="card-title bg-teal text-white">
+            <div class="card-title">
               DateTime
             </div>
             <div class="card-content bg-white">
@@ -56,7 +56,7 @@
       </div>
       <div class="flex wrap justify-center">
         <div class="width-1of3">
-          <button class="teal raised outline fit" @click="$v.$touch()">Try Submit</button>
+          <button class="blue-grey raised outline fit" @click="$v.$touch()">Try Submit</button>
         </div>
       </div>
     </div>

@@ -52,7 +52,7 @@
     <div class="flex small-gutter">
       <div class="auto">
         <q-double-range
-          class="teal"
+          class="blue-grey"
           v-model="doubleRangeMinMax"
           :min="0"
           :max="maxIncome"

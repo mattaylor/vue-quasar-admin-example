@@ -2,7 +2,7 @@
   <div>
     <div class="layout-padding ">
       <div class="card">
-        <div class="card-title bg-teal text-white">
+        <div class="card-title">
           Search Users
         </div>
         <div class="card-content bg-white">
@@ -23,7 +23,7 @@
               <button class="primary raised outline fit" @click="save()">Save</button>
             </div>
             <div class="width-1of3 sm-width-3of3">
-              <button class="teal raised outline fit"  @click="$refs.modal.$children[0].open()">Check Adress</button>
+              <button class="blue-grey raised outline fit"  @click="$refs.modal.$children[0].open()">Check Adress</button>
             </div>
           </div>
         </q-transition>

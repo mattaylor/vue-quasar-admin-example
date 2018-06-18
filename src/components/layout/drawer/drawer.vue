@@ -10,9 +10,9 @@
         <hr>
       </div>
       <div id="user-actions">
-        <button class="bordered blue small" ><i>person</i></button>
-        <button class="bordered blue small" ><i>lock</i></button>
-        <button class="bordered blue small" @click='logOut'><i>exit_to_app</i></button>
+        <button class="primary-2 small" ><i>person</i></button>
+        <button class="primary-3 small" ><i>lock</i></button>
+        <button class="primary-4 small" @click='logOut'><i>exit_to_app</i></button>
       </div>
     </div>
     <menu-one v-if="getMenuCollapse" :links="links"></menu-one>
@@ -92,7 +92,8 @@
     }
   }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
+  @import '../../../themes/app.variables.styl'
   .fixed-bottom {
     margin-bottom: 1%;
   }
@@ -106,7 +107,7 @@
   }
   #profile {
     height: 130px;
-    background-color: #009688;
+    background-color : darken($primary,20%)
   }
   #user-name {
     left: 90px;

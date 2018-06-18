@@ -54,16 +54,18 @@
     }
   }
 </script>
-<style scoped>
+<style lang="stylus" scoped>
+  @import '../../../themes/app.variables.styl'
+
   .list-label:first-child{
     line-height: 50px;
   }
   .router-link-active {
-    color: #027be3;
-    background-color: #dadada !important;
-    border-right: 2px solid #027be3;
+    color: darken($primary,80%);
+    background-color: lighten($primary,80%) !important;
+    border-right: 2px solid darken($primary,10%);
   }
   .router-link-active .item-primary{
-    color: #027be3;
+    color: $primary;
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <q-modal ref="modal" @open="startMap()">
     <div class="card fit">
-      <div class="card-title bg-teal text-white">
+      <div class="card-title">
         Adress of {{user.name}}
       </div>
       <div class="card-content bg-white">
@@ -39,7 +39,7 @@
         <button class="primary outline raised fit" @click="save()">Save</button>
       </div>
       <div class="width-1of3 sm-width-3of3">
-        <button class="teal outline raised fit" @click="$refs.modal.close()">Close</button>
+        <button class="blue-grey outline raised fit" @click="$refs.modal.close()">Close</button>
       </div>
     </div>
   </q-modal>

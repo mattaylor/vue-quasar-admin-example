@@ -1,6 +1,6 @@
 <template>
   <div class="card bg-white">
-    <div class="card-title bg-teal text-white">
+    <div class="card-title">
       {{cardTitle}}
       <div class=" float-right">
       </div>

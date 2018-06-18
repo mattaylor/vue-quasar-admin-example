@@ -16,12 +16,23 @@
 // It's highly recommended to change the default colors
 // to match your app's branding.
 
-$primary   = #027be3
-$secondary = #26A69A
-$tertiary  = #555
+$primary   = #51bcda
+$primary-1   = lighten($primary,80%)
+$primary-2   = lighten($primary,60%)
+$primary-3   = lighten($primary,40%)
+$primary-4   = lighten($primary,20%)
+$primary-5   = #51bcda
+$primary-6   = darken($primary,20%)
+$primary-7   = darken($primary,40%)
+$primary-8   = darken($primary,60%)
+$primary-9   = darken($primary,80%)
+$secondary = #B7CECE
+$tertiary  = #F7F9F9
+$quaternary  = #3D5A6C
+$quinary  = #454850
 
 $neutral   = #E0E1E2
-$positive  = #21BA45
+$positive  = #454850
 $negative  = #DB2828
 $info      = #31CCEC
 $warning   = #F2C037
@@ -35,3 +46,9 @@ $background-color    = white
 
 $link-color          = lighten($primary, 25%)
 $link-color-active   = $primary
+
+// App Specific Variables
+// --------------------------------------------------
+$card-title-background-color = $tertiary
+$card-title-text-color = darken($tertiary,50%)
+$background-color = lighten(#fbf9f2, 60%)

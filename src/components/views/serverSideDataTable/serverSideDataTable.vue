@@ -2,7 +2,7 @@
   <div>
     <div class="layout-padding">
       <div class="card">
-        <div class="card-title bg-teal text-white">Example using pagination / filter outside of data tables (Tks to
+        <div class="card-title">Example using pagination / filter outside of data tables (Tks to
           <a href="https://github.com/wilcorrea" class="text-black underline">Willian Correa</a> ) </div>
         <div class="card-content">
           <div class="flex wrap gutter">

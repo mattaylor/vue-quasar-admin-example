@@ -4,7 +4,7 @@
       <div class="width-1of3 sm-auto">
         <cardTotal
           title="Total Posts"
-          background-color="bg-teal-9"
+          background-color="bg-blue-grey-9"
           icon-name="local_post_office"
           :total="totalPosts">
         </cardTotal>
@@ -12,7 +12,7 @@
       <div class="width-1of3 sm-auto">
         <cardTotal
           title="Total comments"
-          background-color="bg-teal-7"
+          background-color="bg-blue-grey-7"
           icon-name="comment"
           :total="totalComments">
         </cardTotal>
@@ -20,7 +20,7 @@
       <div class="width-1of3 sm-auto">
         <cardTotal
           title="Static total"
-          background-color="bg-teal-5"
+          background-color="bg-blue-grey-5"
           icon-name="repeat_one"
           :total="50004">
         </cardTotal>

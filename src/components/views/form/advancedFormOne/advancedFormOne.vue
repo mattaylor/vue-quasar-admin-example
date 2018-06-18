@@ -2,7 +2,7 @@
   <div>
     <div class="layout-padding ">
       <div class="card">
-        <div class="card-title bg-teal text-white">
+        <div class="card-title">
           Choose photos to reveal of the user
         </div>
         <div class="card-content bg-white adv-form-one">
@@ -17,7 +17,7 @@
                     :validation-messages="validationMessages.userName"
                     :value="userName"
                   ></e-input>
-                  <button class="teal raised outline" @click="findUser()">Search</button>
+                  <button class="blue-grey raised outline" @click="findUser()">Search</button>
                 </div>
                 <div class="width-1of2 gt-width-3of5">
                   <card-user-data :user-data="userData" v-model="selectedAlbum"></card-user-data>

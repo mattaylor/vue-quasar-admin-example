@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="card-actions inline-block vertical-middle">
-        <button class="teal fit " :class="buttonClass" @click="login()">Login</button>
+        <button class="blue-grey fit " :class="buttonClass" @click="login()">Login</button>
         <button class="red fit" :class="buttonClass" @click="login()">Login Google</button>
         <button class="blue fit" :class="buttonClass" @click="login()">Login Facebook</button>
       </div>
@@ -74,7 +74,7 @@
               {{logoName}}
             </div>
           </label>
-          <button class="teal raised full-width " @click="startAnimation()">Animate !</button>
+          <button class="blue-grey raised full-width " @click="startAnimation()">Animate !</button>
         </div>
       </div>
     </div>

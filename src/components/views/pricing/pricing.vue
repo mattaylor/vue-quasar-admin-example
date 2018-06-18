@@ -9,7 +9,7 @@
           <q-radio v-model="cardType" val="Vertical One"></q-radio> Vertical One
         </label>
         <label>
-          <q-radio v-model="cardType" val="Horizontal One" class="teal"></q-radio> Horizontal One
+          <q-radio v-model="cardType" val="Horizontal One" class="blue-grey"></q-radio> Horizontal One
         </label>
       </div>
 
@@ -59,10 +59,10 @@
           },
           {
             title: 'Basket Fruit Two',
-            titleClasses: 'bg-teal',
+            titleClasses: 'bg-blue-grey',
             price: '39',
             priceSubtitle: 'per month',
-            buttonClasses: 'teal',
+            buttonClasses: 'blue-grey',
             cardId: '2',
             planBenefitComponent: 'benefit-two'
           },

@@ -8,7 +8,7 @@
         <iframe id="ios-iframe" frameborder="0" src="https://quasar-admin.firebaseapp.com/ios/#/"></iframe>
       </div>
     </div>
-    <q-layout :style="{ backgroundColor: backgroundColor}" v-else>
+    <q-layout class="background" v-else>
       <toolbar slot="header"></toolbar>
       <drawer></drawer>
       <div class="layout-view">
@@ -27,11 +27,6 @@
   import { mapGetters } from 'vuex'
   export default {
     name: 'app',
-    data () {
-      return {
-        backgroundColor: 'whitesmoke'
-      }
-    },
     computed: {
       ...mapGetters(['getLayoutNeeded', 'getMobileMode'])
     },
@@ -43,7 +38,10 @@
   }
 </script>
 
-<style>
+<style lang="stylus">
+@import '~quasar/src/themes/quasar.core.variables.styl'
+@import '~themes/app.variables.styl'
+
   .fade-enter-active, .fade-enter{
     -webkit-animation: moveFromRight .5s both ease;
     animation: moveFromRight .5s both ease;
@@ -116,7 +114,10 @@
     height: 45px;
   }
   .router-link-active .item-primary{
-    color: #027be3;
+    color: $link-color-active;
+  }
+  .router-link-active .item-primary{
+    color: $link-color-active;
   }
   .q-picker-textfield .q-picker-textfield-label{
     color: inherit !important;
@@ -193,5 +194,39 @@
   }
   .underline {
     text-decoration: underline;
+  }
+  .card-title {
+    background-color: $card-title-background-color;
+    color: $card-title-text-color;
+  }
+  .background {
+    background-color: $background-color;
+  }
+  .primary-1 {
+    background-color: $primary-1;
+  }
+  .primary-2 {
+    background-color: $primary-2;
+  }
+  .primary-3 {
+    background-color: $primary-3;
+  }
+  .primary-4 {
+    background-color: $primary-4;
+  }
+  .primary-5 {
+    background-color: $primary-5;
+  }
+  .primary-6 {
+    background-color: $primary-7;
+  }
+  .primary-7 {
+    background-color: $primary-7;
+  }
+  .primary-8 {
+    background-color: $primary-8;
+  }
+  .primary-9 {
+    background-color: primary-9;
   }
 </style>
